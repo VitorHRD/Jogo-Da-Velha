@@ -10,7 +10,6 @@
 <a href="https://vitorhrd.github.io/Jogo-Da-Velha/"🔗 Jogar</a>
 </h2
 
-<h1 align="center">Jogo Funcionando<h1>
 <img src="./images/gif1.gif"></img>
 <h1>🚀 Tecnologias</h1>
  
