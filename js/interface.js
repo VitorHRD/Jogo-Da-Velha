@@ -73,7 +73,7 @@ function restart(){
     
     }
     function emojicon() {
-
+    
         if (emoji2.style.display=="block") {
     
             emoji.style.display = "block";
