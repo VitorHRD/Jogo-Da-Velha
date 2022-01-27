@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarala&display=swap');
+body{
+ font-family: 'Sarala',sans-serif;
+ margin: 0;
+ background-color:#23232e;
+ color:white;
+ box-sizing: border-box;
+ 
+}
+.dark{
+    background-color: #23232e;
+}
+.light{
+    background-color: #ffff;
+}
+#all{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+h1{
+    color: #0099ff;
+    font-size: 50px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    text-decoration: none;
+    
+}
+h2{
+    font-size: 30px;
+}
+
+.stage{
+    text-align: center;
+}
+.square{
+    width: 120px;
+    height: 120px;
+    border: solid  #0e6caa 4px ;
+    display: inline-block;
+}
+.o{
+ position: relative;
+}
+.o:after{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    content:"O" ;
+    text-decoration: bold;
+    font-size: 70px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #3498db;
+}
+.x{
+    position: relative;
+   }
+   .x:after{
+       font-family: Arial, Helvetica, sans-serif;
+       position: absolute;
+       content:"X" ;
+       color: #3498db;
+       text-decoration:bold;
+       font-size: 70px;
+       line-height: 100px;
+       top: 0;
+       bottom: 0;
+       left: 0;
+       right: 0;
+   }
+   #restart {
+    margin-top: 30px;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    -webkit-transition: all 150ms ease-in-out;
+    transition: all 150ms ease-in-out;
+    width: 100px;
+    height: 50px;
+  }
+  #restart:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+    color: black;
+    cursor: pointer;
+  }
+    
+  .square.esquerda{
+      border-left: none;
+  }
+  .square.baixo{
+      border-bottom: none;
+  }
+  .square.direita{
+      border-right: none;
+  }
+  .square.primeiro{
+      border-top:none;
+
+}
+#vencedor{
+    display: flex;
+    width: 200px;
+    height: 180px;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+     margin-top: 200px;
+     color: #3498db ;
+    
+    
+}
+h2{
+    margin: 0;
+    
+}
+h3{
+    margin: 0;
+    margin-left: 20px;
+}
+#pontosE{
+  margin-left: 10px;
+}
+#button{
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.toggle {
+    position:absolute;
+    align-self: start;
+    height: 95% ;
+    padding: 0;
+    
+}
+
+.toggle > input {
+    display: none;
+}
+
+.toggle > label {
+    position: relative;
+    display: block;
+    height: 28px;
+    width: 52px;
+    background-color: #f7f7f7;
+    border: 1.5px #a2e3e6 solid;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.toggle > label:after {
+    position: absolute;
+    left: 0.1px;
+    display: block;
+    width: 26px;
+    height: 26px;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.836);
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.05);
+    content: '';
+    transition: all 0.3s ease;
+}
+
+
+.toggle > input:checked ~ label:after {
+    left: 24px;
+}
+.toggle > input:disabled ~ label {
+    background-color: #d5d5d5;
+    pointer-events: none;
+}
+#emoji{
+    text-align: center;
+    font-size: 30px;
+    
+}
+#emoji2{
+    display: none;
+    text-align: center;
+    font-size: 30px;
+}
