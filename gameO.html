@@ -8,6 +8,15 @@
     <title>Jogo Da Velha</title>
 </head>
 <body>
+    <div id="button">
+        <div class="toggle">
+            <div id="emoji">&#127772</div>
+            <div id="emoji2">&#127774</div>
+            <input type="checkbox" id="foo">
+            <label for="foo" onclick="emojicon()"></label>
+        </div>
+        </div>
+        <div id="all">
     <div id="vencedor">
         <div id="circulo">
           <h2>Jogador : O</h2>
@@ -15,7 +24,7 @@
         </div>
         <div id="xx">
                 <h2>Jogador : X</h2>
-                <h3> id="pontosX">Pontos : 0</h3>
+                <h3 id="pontosX">Pontos : 0</h3>
         </div>
         <div>
             <h2>Empates</h2>
@@ -40,6 +49,7 @@
             <div id="8" class="square baixo direita"></div>
         </div>
         <button id="restart" onclick="restart(symbols)">Reiniciar</button>
+    </div>
     </div>
     <script src="./js/gameO.js"></script>
     <script src="./js/interface.js"></script>
