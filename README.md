@@ -7,7 +7,7 @@
 <p>✅ Possui um botão para reiniciar o game.</p>
 <p>✅ Pussui dark mode que salva no localStorage.</p>
 <h2 color="blue" align="center">
-<a href="https://vitorhrd.github.io/Jogo-Da-Velha/"🔗 Jogar</a>
+<a href="https://vitorhrd.github.io/Jogo-Da-Velha/">🔗 Jogar</a>
 </h2
 
 <img src="./images/gif1.gif"></img>
